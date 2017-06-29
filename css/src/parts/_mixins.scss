@@ -9,7 +9,7 @@
 
 @mixin for-title-header-footer($white-color) {
     color: $white-color;
-    font-family: second-font-family;
+    font-family: $second-font-family;
     font-weight: 700;
     line-height: 60px;
     text-transform: uppercase;
