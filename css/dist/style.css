@@ -420,7 +420,7 @@ Header
     padding: 0;
     font-size: 48px;
     color: #ffffff;
-    font-family: second-font-family;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     line-height: 60px;
     text-transform: uppercase; }
@@ -755,7 +755,7 @@ Footer
     margin: 0 auto 70px;
     font-size: 35px;
     color: #ffffff;
-    font-family: second-font-family;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     line-height: 60px;
     text-transform: uppercase; }
