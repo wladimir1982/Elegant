@@ -1,0 +1,52 @@
+.ourservices {
+   @include section-information($white-color);
+    &__title {
+        width: 19%;
+       @include information-for-title($title-color)
+    }
+    &__title:hover {
+        @include title-hover;
+    }
+    &__line {
+        @include line-for-section($title-color);
+    }
+    &__tablet {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: baseline;
+        list-style: none;
+        margin: 0;
+        padding: 0 150px 120px;
+        text-align: center;
+    }
+    &__item {
+        margin-right: 70px;
+    }
+    &__item:last-child {
+        margin-right: 0;
+    }
+    &__img {
+        margin-bottom: 40px;
+    }
+    &__subtitle {
+        color: #222222;
+        font-family: $first-font-family;
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0 auto 40px;
+    }
+    &__subtitle:hover {
+        @include title-hover;
+    }
+    &__description {
+        text-align: center;
+        margin: 0;
+        font-size: 16px;
+        line-height: 30px;
+        white-space: pre-line;
+    }
+    &__description:hover {
+        @include for-description;
+    }
+}

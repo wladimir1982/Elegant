@@ -1,0 +1,88 @@
+@mixin section-information($white-color) {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 115px;
+    font-family: $first-font-family;
+    background-color: $white-color;
+}
+
+@mixin for-title-header-footer($white-color) {
+    color: $white-color;
+    font-family: second-font-family;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+@mixin line-for-header-footer($white-color) {
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+    color: $white-color;
+}
+
+@mixin information-for-title($title-color) {
+    color: $title-color;
+    font-family: $second-font-family;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin: 0 auto 70px;
+    padding: 0;
+}
+
+@mixin line-for-section($title-color) {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 80px;
+    padding: 0;
+    color: $title-color;
+}
+
+@mixin properties-for-background {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin properties-for-ourwork {
+    width: 370px;
+    height: 420px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin for-btn {
+    background: transparent;
+    font-family: $first-font-family;
+    font-size: 24px;
+    line-height: 60px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+@mixin for-btn-hover {
+    color: $color-blue;
+    text-shadow: 2px 2px 2px black, 0 0 1em #cd7f32;
+    background-color: #ADFF2F;
+    font-size: 34px;
+    box-shadow: 0 3px 0 #008000;
+    border: 3px solid #00FF00;
+    cursor: pointer;
+}
+
+@mixin title-hover {
+    cursor: pointer;
+    color: #FF0000;
+    text-shadow: 3px 3px 2px black, 0 0 1em #ADFF2F;
+}
+@mixin for-description {
+    cursor: pointer;
+    color: #FF00FF;
+    text-shadow: 3px 3px 2px black, 0 0 1em #FF00FF;
+}

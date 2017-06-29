@@ -1,0 +1,61 @@
+.header {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    background-image: url(../../img/hero-img.png);
+    @include properties-for-background;
+    background-attachment: fixed;
+    &__row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-bottom: 252px;
+    }
+    &__logo {
+        justify-content: flex-start;
+        margin-left: 200px;
+        margin-right: 300px;
+    }
+    &__title {
+        width: 48%;
+        margin: 0 auto 56px;
+        padding: 0;
+        font-size: 48px;
+        @include for-title-header-footer($white-color);
+    }
+    &__title:hover {
+        @include title-hover;
+    }
+    &__line {
+        @include line-for-header-footer($white-color);
+        margin-bottom: 40px;
+    }
+    &__line-img {
+        width: 86px;
+        height: 2px;
+    }
+    &__description {
+        width: 50%;
+        text-align: center;
+        margin: 0 auto 258px;
+        color: $header-color;
+        font-family: $first-font-family;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    &__description:hover {
+        @include for-description;
+    }
+    &__img {
+        text-align: center;
+        padding-bottom: 46px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    &__img--circular {
+        width: 92px;
+        height: 92px;
+    }
+}
