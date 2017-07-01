@@ -1,10 +1,8 @@
 .footer {
-    width: 100%;
-    height: auto;
     background-image: url(../../img/bg.png);
     @include properties-for-background;
     &__title {
-        width: 19.5%;
+        width: 21%;
         padding-top: 118px;
         margin: 0 auto 70px;
         font-size: 35px;
@@ -99,9 +97,9 @@
         color: $white-color;
         border: 3px solid $white-color;
         margin-bottom: 122px;
-       @include for-btn;
+        @include for-btn;
     }
     &__btn:hover {
-       @include for-btn-hover;
+        @include for-btn-hover;
     }
 }

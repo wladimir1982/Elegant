@@ -2,7 +2,7 @@
     text-align: center;
     @include section-information($white-color);
     &__title {
-        width: 14.5%;
+        width: 17%;
         @include information-for-title($title-color)
     }
     &__title:hover {
@@ -49,7 +49,6 @@
         opacity: 1;
     }
     &__wrap {
-        width: 100%;
         position: absolute;
         text-align: center;
         top: 50%;
