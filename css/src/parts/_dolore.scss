@@ -1,22 +1,22 @@
 .dolore {
-    width: 100%;
-    height: auto;
     background-image: url(../../img/layers.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    &__row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
     &__wrap {
-        width: 60%;
+        width: 78%;
         display: flex;
         flex-direction: column;
         align-self: center;
     }
     &__wrap--title {
-        width: 69%;
+        width: 60%;
         margin-top: 0;
         margin-bottom: 15px;
         color: $white-color;
@@ -43,7 +43,7 @@
         @include for-description;
     }
     &__wrap--link {
-        width: 5.5%;
+        width: 5%;
         color: $white-color;
         padding: 0;
         font-family: $first-font-family;
@@ -57,7 +57,7 @@
         text-shadow: 3px 3px 2px black, 0 0 1em #0000CD;
     }
     &__img {
-        width: 19%;
+        width: 22%;
         padding-top: 75px;
     }
 }

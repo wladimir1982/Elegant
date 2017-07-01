@@ -1,7 +1,7 @@
 .ourservices {
    @include section-information($white-color);
     &__title {
-        width: 19%;
+        width: 21%;
        @include information-for-title($title-color)
     }
     &__title:hover {
